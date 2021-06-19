@@ -178,12 +178,8 @@ fun About(){
 
 @Composable
 fun Info(){
-    Box(modifier = Modifier
-        .height(300.dp)
-        .background(Color.Blue)){
-        Center {
-            Text(text = "Hello this is info")
-        }
+    Center {
+        Text(text = "Hello this is info")
     }
 
 }
